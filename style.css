@@ -1,8 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
 body {
+  font-size: 16px;
   background-color: #484097;
   color: #fdfdde;
   font-family: "Donegal One", serif;
-  width: 960px;
+  width: 80%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -10,3 +15,6 @@ body {
   padding-bottom: 20px; }
   .contact p {
     line-height: 10px; }
+
+h1#diamond {
+  font-size: 4rem; }
