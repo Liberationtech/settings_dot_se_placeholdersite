@@ -1,0 +1,12 @@
+body {
+  background-color: #484097;
+  color: #fdfdde;
+  font-family: "Donegal One", serif;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.contact {
+  padding-bottom: 20px; }
+  .contact p {
+    line-height: 10px; }
