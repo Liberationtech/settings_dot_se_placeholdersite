@@ -16,5 +16,14 @@ body {
   .contact p {
     line-height: 10px; }
 
+h1#logo {
+  width: 638px;
+  height: 146px;
+  background-image: url("logga.png");
+  background-size: 638px 146px;
+  background-repeat: no-repeat;
+  background-position-x: -12.76px;
+  text-indent: -10000px; }
+
 h1#diamond {
   font-size: 4rem; }

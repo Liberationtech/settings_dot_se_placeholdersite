@@ -17,6 +17,7 @@ $fg: #fdfdde;
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
+
 body {
     font-size: 16px;
     background-color: $bg;
@@ -30,6 +31,25 @@ body {
     p {
         line-height: 10px;
     }
+}
+
+h1#logo {
+  
+   $w1: 1276px;
+   $h1: 292px;
+   $factor: 0.5;
+   
+   $w2: $w1 * $factor;
+   $h2: $h1 * $factor; 
+   width: $w2;
+   height: $h2;
+   
+   background-image: url("logga.png");
+   background-size: $w2 $h2;
+   background-repeat: no-repeat;
+   background-position-x: -($w1 / 50) * $factor;
+   text-indent: -10000px;
+   
 }
 
 h1#diamond {
