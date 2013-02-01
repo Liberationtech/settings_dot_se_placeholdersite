@@ -1,4 +1,4 @@
-$bg: #484097;;
+$bg: #ff8216;
 $fg: #fdfdde;
 
 @mixin center {
@@ -31,27 +31,60 @@ body {
     p {
         line-height: 10px;
     }
+
+    a {
+        color: $fg;
+        text-decoration: none;
+    }
 }
 
-h1#logo {
+.contact.left {
+        float: left;
+}
+
+.contact.right {
+        float: left;
+        margin-left: 22%;
+}
+
+img#logo {
   
-   $w1: 1276px;
-   $h1: 292px;
-   $factor: 0.5;
+   /*$w1: 1276px;*/
+   /*$h1: 292px;*/
+   /*$factor: 0.5;*/
    
-   $w2: $w1 * $factor;
-   $h2: $h1 * $factor; 
-   width: $w2;
-   height: $h2;
-   
-   background-image: url("logga.png");
-   background-size: $w2 $h2;
-   background-repeat: no-repeat;
-   background-position-x: -($w1 / 50) * $factor;
-   text-indent: -10000px;
+   /*$w2: $w1 * $factor;*/
+   /*$h2: $h1 * $factor; */
+   width: 100%;
+    
+   margin-top: 5%;
+   margin-left: -1%;
+
+   /*height: 115%*/
+
+      
+   /*background-image: url("logga.png");*/
+   /*background-size: $w2 $h2;*/
+   /*background-repeat: no-repeat;*/
+   /*background-position-x: -($w1 / 50) * $factor;*/
+   /*text-indent: -10000px;*/
    
 }
 
 h1#diamond {
     font-size: 4rem;
+}
+
+img.line {
+    margin: 17px 0;
+    width: 100%;
+}
+
+
+img.line.last {
+    margin-top: 4px;
+}
+
+.clear {
+    clear: both;
 }
