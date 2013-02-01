@@ -20,11 +20,11 @@ body {
     text-decoration: none; }
 
 .contact.left {
-  float: left; }
+  float: left;
+  margin-right: 22%; }
 
 .contact.right {
-  float: left;
-  margin-left: 22%; }
+  float: left; }
 
 img#logo {
   /*$w1: 1276px;*/
@@ -41,9 +41,6 @@ img#logo {
   /*background-repeat: no-repeat;*/
   /*background-position-x: -($w1 / 50) * $factor;*/
   /*text-indent: -10000px;*/ }
-
-h1#diamond {
-  font-size: 4rem; }
 
 img.line {
   margin: 17px 0;
