@@ -1,10 +1,11 @@
+/*$fg: #fdfdde;*/
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
 body {
   font-size: 16px;
   background-color: #ff8216;
-  color: #fdfdde;
+  color: white;
   font-family: "Donegal One", serif;
   width: 80%;
   max-width: 800px;
@@ -16,7 +17,7 @@ body {
   .contact p {
     line-height: 10px; }
   .contact a {
-    color: #fdfdde;
+    color: white;
     text-decoration: none; }
 
 .contact.left {
