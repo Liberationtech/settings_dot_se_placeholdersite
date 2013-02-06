@@ -28,20 +28,9 @@ body {
   float: left; }
 
 img#logo {
-  /*$w1: 1276px;*/
-  /*$h1: 292px;*/
-  /*$factor: 0.5;*/
-  /*$w2: $w1 * $factor;*/
-  /*$h2: $h1 * $factor; */
   width: 100%;
   margin-top: 5%;
-  margin-left: -1%;
-  /*height: 115%*/
-  /*background-image: url("logga.png");*/
-  /*background-size: $w2 $h2;*/
-  /*background-repeat: no-repeat;*/
-  /*background-position-x: -($w1 / 50) * $factor;*/
-  /*text-indent: -10000px;*/ }
+  margin-left: -1%; }
 
 img.line {
   margin: 17px 0;
